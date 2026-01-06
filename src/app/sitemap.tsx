@@ -20,6 +20,7 @@ function populateAlternates(initialPath: string, finalPath: string) {
   };
 }
 
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = fs.readdirSync(POSTS_DIR);
 
